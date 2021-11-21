@@ -24,7 +24,7 @@ const BlogPreviewItem = props => {
             className="level-item button is-small is-link is-outlined"
             to={{ pathname: `${match.url}/${props.path}`, ...props }}
           >
-            Read More
+            Read More...
           </Link>
         </div>
         <div className="level-right">
